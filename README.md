@@ -2,7 +2,7 @@
 The dataset contains description of a product along with the Title of the verbatim. We have the correspondin
 category to which the record has been classified
 
-There are 55 unique categgories from which the classification is required to be done
+There are 55 unique categories from which the classification is required to be done
 
 We go through a series of steps to build a very compact Text Classification Model
 The initial models are going to be very simple in structure
