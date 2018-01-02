@@ -16,6 +16,9 @@ from nltk.corpus import stopwords
 stop = (stopwords.words('english'))
 import nltk
 
+stop.append('.')
+stop = set(stop)
+
 def cleaning_records(df, stop):
     df['description'] = df['description'].astype(str)
     df['description'] = [df['description'][record].lower() for record in range(df.shape[0])]##Lower case###
